@@ -1,0 +1,103 @@
+/* ia-writer-mono-latin-400-normal */
+@font-face {
+	font-family: "iA Writer Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-normal.woff2)
+			format("woff2"),
+		url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-normal.woff)
+			format("woff");
+}
+
+/* ia-writer-mono-latin-700-normal */
+@font-face {
+	font-family: "iA Writer Mono";
+	font-style: normal;
+	font-display: swap;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-normal.woff2)
+			format("woff2"),
+		url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-normal.woff)
+			format("woff");
+}
+
+/* ia-writer-mono-latin-400-italic */
+@font-face {
+	font-family: "iA Writer Mono";
+	font-style: italic;
+	font-display: swap;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-italic.woff2)
+			format("woff2"),
+		url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-400-italic.woff)
+			format("woff");
+}
+
+/* ia-writer-mono-latin-700-italic */
+@font-face {
+	font-family: "iA Writer Mono";
+	font-style: italic;
+	font-display: swap;
+	font-weight: 700;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-italic.woff2)
+			format("woff2"),
+		url(https://cdn.jsdelivr.net/fontsource/fonts/ia-writer-mono@latest/latin-700-italic.woff)
+			format("woff");
+}
+
+:root {
+	--white: #efefef;
+	--transwhite: rgba(239, 239, 239, 0.7);
+	--moretranswhite: rgba(239, 239, 239, 0.1);
+	--black: #252525;
+	--transblack: rgba(37, 37, 37, 0.7);
+	--moretransblack: rgba(37, 37, 37, 0.1);
+	--gray: #a4a4a4;
+	--highlight: #e5ffc3;
+	--red: #e4002b;
+	--green: #24d05a;
+	--pink: #eb4888;
+	--blue: #10a2f5;
+	--yellow: #e9bc3f;
+}
+
+html,
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: var(--white);
+	color: var(--black);
+}
+
+body,
+button {
+	font-family: "iA Writer Mono", monospace;
+}
+
+::selection {
+	background-color: var(--highlight);
+	color: var(--black);
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 400;
+	margin: 0;
+}
+
+h2 {
+	color: var(--gray);
+	font-weight: 300;
+	margin: 0 0 0.5em 0;
+}
+
+a {
+	color: var(--black);
+	text-decoration-thickness: 0.3ex;
+	text-underline-offset: 0.3ex;
+}
+a:hover {
+	font-weight: bold;
+}
