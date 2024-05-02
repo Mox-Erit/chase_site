@@ -8,29 +8,30 @@
             <img id="photo" src="chase.jpg" alt="">
         </div>
     </div>
+
+    <div class="bio">
+        <p>Ahoy! Right now I am working on my RC model of the Lockheed "Sea Shadow" - which I am programming using the Elixir Nerves framework.
+            <br/><br/>I am modeling, 3D printing, and assembling it all together in my free time. And I hope to share a full tutorial on this soon!</p> 
+    </div>
     <div class="links">
         <a href="https://github.com/Mox-Erit" target="_blank" aria-label="This link to github will open in a new window">github</a>
-        <a href="https://twitter.com/_TowerTower" target="_blank" aria-label="This link to github will open in a new window">twitter</a>
         <a href="https://linkedin.com/in/chasealber/" target="_blank" aria-label="This link to github will open in a new window">linkedin</a>
-        <a href="">models</a>
-        <a href=""></a>
-    </div>
-    <div class="bio">
-        Merhaba! My name is Chase and I am a Software Engineer with the State of Montana. I also tinker with embedded systems which I build out custom RC models and designs. In my free time you can find me slinging flies on the Missouri river or volunteering with my church.
+        <a href="/models">models</a>
+        <a href="/books">books</a>
     </div>
 </div>
 
 
 <style>
     .container {
-        margin: 3rem auto;
-        padding: 0.5rem;
+        margin: 10px auto;
+        padding: 5px;
         max-width: 650px;
     }
     .hero {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
     .hero-title {
@@ -38,8 +39,8 @@
     }
     .hero-img {
         position: relative;
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin: 0 0 10px 0;
         border-radius: 50%;
         overflow: hidden;
@@ -54,6 +55,8 @@
     }
     .links {
         margin: 2rem 0;
+        justify-content: space-between;
+        display: flex;
     }
     .links a:not(:last-child) {
         padding: 0 12px 0 0;
